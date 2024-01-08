@@ -42,7 +42,7 @@ let person = {
 }
 
 
-
+//functions
 function verifyAge(person: {firstName: string, lastName: string, age: number}) {
     if (person.age >= 18) {
         return person.firstName + ' ' + person.lastName + ' is allowed'

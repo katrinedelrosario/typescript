@@ -32,6 +32,7 @@ let person = {
     height: 172,
     favoritColors: ['pink', 'red', 'orange', 'yellow'] || 'sunset'
 };
+//functions
 function verifyAge(person) {
     if (person.age >= 18) {
         return person.firstName + ' ' + person.lastName + ' is allowed';
