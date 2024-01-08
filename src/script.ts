@@ -38,11 +38,10 @@ let person = {
     eyeColor: 'brown',
     hairColor: 'darkbrown',
     height: 172,
-    favoritColors: ['pink', 'red', 'orange', 'yellow'],
-    favoritColorCombined: 'sunset'
-
-    
+    favoritColors: ['pink', 'red', 'orange', 'yellow'] || 'sunset'
 }
+
+
 
 function verifyAge(person: {firstName: string, lastName: string, age: number}) {
     if (person.age >= 18) {
