@@ -1,18 +1,18 @@
 //Din opgave er nu at lave et interface, gerne ved at extende interfaces, som kan dække over denne data struktur.
 
   interface classData {
-    class: string
-    student_count: number
-    teacher: string
-    id: number
-    students: studentData[]
+    class: string;
+    student_count: number;
+    teacher: string;
+    id: number;
+    students: studentData[];
   }
 
   interface studentData {
-    first_name: string
-    last_name: string
-    phone: number
-    id: number
+    first_name: string;
+    last_name: string;
+    phone: number;
+    id: number;
   }
 
   let data: classData[] = [
@@ -45,7 +45,6 @@
   ]
 
   function getClassData(student: studentData) {
-    console.log('called student:', student);
+    console.log('student: ', student.first_name);
     return student.first_name
-    
   }

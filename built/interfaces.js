@@ -29,6 +29,6 @@ let data = [
     }
 ];
 function getClassData(student) {
-    console.log('called student:', student);
+    console.log('student: ', student.first_name);
     return student.first_name;
 }

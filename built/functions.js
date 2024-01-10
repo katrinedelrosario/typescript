@@ -3,7 +3,7 @@ function calculatePercent(number, percent) {
     return (number * percent) / 100;
 }
 const result1 = calculatePercent(200, 25); // (startnumber, percent) = result (in this case 50)
-console.log(result1);
+console.log('calc percent func ', 'result = ' + result1);
 //get element from array func
 function getSpecificElement(array, index) {
     if (array.length === 0) {
@@ -19,7 +19,7 @@ function getSpecificElement(array, index) {
 }
 const arrayNumbers = [12, 34, 56, 78];
 const result2 = getSpecificElement(arrayNumbers, 2); // result in this case should be 56
-console.log(result2);
+console.log('get elm from arr func ', 'result = ' + result2);
 //search array for string func
 function searchArray(array, buzzword) {
     if (array.length === 0) {
@@ -36,5 +36,5 @@ function searchArray(array, buzzword) {
 }
 const arrayText = ['abc', 'def', 'ghi', 'jkl', 'mno'];
 const result3 = searchArray(arrayText, 'hi'); //result should in this case be 'ghi'
-console.log(result3);
-export {};
+console.log('search arr for str ', 'result = ' + result3);
+
